@@ -98,7 +98,13 @@ def main():
     
     # Barra Lateral
     # st.sidebar.image("https://quadrangular.org/wp-content/uploads/2022/09/logo-footer.png", width=120)
-           
+    with st.sidebar:
+        # LINHA CORRIGIDA: O comentário e o bloco abaixo agora estão devidamente indentados
+        try:
+            st.image("logo.png", width=150)
+        except:
+            st.markdown("<h1 style='text-align: center;'>📖</h1>", unsafe_allow_html=True)
+            
     st.sidebar.title("CCM - IEQ Templo Gospel")
     menu = st.sidebar.selectbox("Navegação", ["Portal do Aluno", "Painel do Professor"])
     
