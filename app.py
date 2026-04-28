@@ -97,7 +97,7 @@ def main():
     init_db()
     
     # Barra Lateral
-    st.sidebar.image("https://quadrangular.org/wp-content/uploads/2022/09/logo-footer.png", width=120)
+    # st.sidebar.image("https://quadrangular.org/wp-content/uploads/2022/09/logo-footer.png", width=120)
            
     st.sidebar.title("CCM - IEQ Templo Gospel")
     menu = st.sidebar.selectbox("Navegação", ["Portal do Aluno", "Painel do Professor"])
