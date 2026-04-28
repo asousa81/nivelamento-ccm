@@ -101,7 +101,7 @@ def main():
     with st.sidebar:
         # LINHA CORRIGIDA: O comentário e o bloco abaixo agora estão devidamente indentados
         try:
-            st.image("logo.png", width=150)
+            st.image("logo_tg.JPG", width=150)
         except:
             st.markdown("<h1 style='text-align: center;'>📖</h1>", unsafe_allow_html=True)
             
