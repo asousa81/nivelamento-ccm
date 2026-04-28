@@ -97,12 +97,8 @@ def main():
     init_db()
     
     # Barra Lateral
-    ## st.sidebar.image("https://quadrangular.org/wp-content/uploads/2022/09/logo-footer.png", width=120)
-     with st.sidebar:
-        # LINHA ALTERADA: Agora aponta para o arquivo que está no seu GitHub
-        try:
-            st.image("logo.png", width=150)
-            
+    st.sidebar.image("https://quadrangular.org/wp-content/uploads/2022/09/logo-footer.png", width=120)
+           
     st.sidebar.title("CCM - IEQ Templo Gospel")
     menu = st.sidebar.selectbox("Navegação", ["Portal do Aluno", "Painel do Professor"])
     
