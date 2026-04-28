@@ -97,8 +97,8 @@ def main():
     init_db()
     
     # Barra Lateral
-    st.sidebar.image("https://ieq-online.com.br/assets/img/logo-ieq.png", width=120)
-    st.sidebar.title("CCM - Templo Gospel")
+    st.sidebar.image("https://quadrangular.org/wp-content/uploads/2022/09/logo-footer.png", width=120)
+    st.sidebar.title("CCM - IEQ Templo Gospel")
     menu = st.sidebar.selectbox("Navegação", ["Portal do Aluno", "Painel do Professor"])
     
     if menu == "Portal do Aluno":
@@ -118,7 +118,7 @@ def main():
             if submit:
                 save_response(user_answers)
                 st.balloons()
-                st.success("Excelente! Sua avaliação foi enviada. Pode fechar esta página.")
+                st.success("Excelente! Sua avaliação foi enviada. Deus abençoe, pode fechar esta página.")
 
     else:
         st.title("📊 Painel de Gestão Docente")
