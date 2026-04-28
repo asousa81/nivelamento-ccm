@@ -11,7 +11,7 @@ from datetime import datetime
 # ==========================================
 st.set_page_config(
     page_title="CCM - Nivelamento Teológico",
-    page_icon="🛡️",
+    page_icon="📚",
     layout="wide"
 )
 
