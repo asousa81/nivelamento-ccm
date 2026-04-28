@@ -16,7 +16,7 @@ st.set_page_config(
 )
 
 # SENHA DO PROFESSOR (Altere aqui se desejar)
-SENHA_PROFESSOR = "ccm123"
+SENHA_PROFESSOR = "ccm2026@TG"
 
 # ==========================================
 # DADOS DO CURSO (Wayne Grudem - Bases da Fé)
